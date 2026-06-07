@@ -1,4 +1,4 @@
-module github.com/palemoky/fight-the-landlord
+module github.com/new985211/fight-the-landlord
 
 go 1.25.0
 

@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	"github.com/palemoky/fight-the-landlord/internal/server"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/server"
 )
 
 // version 是服务端版本号，可通过编译时 -ldflags "-X main.version=..." 注入。

@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
 )
 
 // HeuristicEngine 规则启发式决策引擎。

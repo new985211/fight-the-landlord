@@ -4,13 +4,13 @@ import (
 	"log"
 	"sync"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/match"
-	"github.com/palemoky/fight-the-landlord/internal/game/room"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/server/session"
-	"github.com/palemoky/fight-the-landlord/internal/server/storage"
-	"github.com/palemoky/fight-the-landlord/internal/types"
+	"github.com/new985211/fight-the-landlord/internal/game/match"
+	"github.com/new985211/fight-the-landlord/internal/game/room"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/server/session"
+	"github.com/new985211/fight-the-landlord/internal/server/storage"
+	"github.com/new985211/fight-the-landlord/internal/types"
 )
 
 // HandlerDeps 处理器依赖

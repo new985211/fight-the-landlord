@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
 )
 
 // ServerInterface 定义服务器接口（用于打破循环依赖）

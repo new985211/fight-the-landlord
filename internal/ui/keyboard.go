@@ -8,12 +8,12 @@ import (
 
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/convert"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
-	"github.com/palemoky/fight-the-landlord/internal/ui/view"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/protocol/convert"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
+	"github.com/new985211/fight-the-landlord/internal/ui/view"
 )
 
 func clearSystemNotification() tea.Cmd {

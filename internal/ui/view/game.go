@@ -4,7 +4,7 @@ package view
 import (
 	"charm.land/lipgloss/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/ui/common"
+	"github.com/new985211/fight-the-landlord/internal/ui/common"
 )
 
 // Re-export styles for use in this package

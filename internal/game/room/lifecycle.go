@@ -5,10 +5,10 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"github.com/palemoky/fight-the-landlord/internal/apperrors"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/types"
+	"github.com/new985211/fight-the-landlord/internal/apperrors"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/types"
 )
 
 // SetAllPlayersReady 设置所有玩家准备状态

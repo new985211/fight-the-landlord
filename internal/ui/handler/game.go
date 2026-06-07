@@ -8,12 +8,12 @@ import (
 	"charm.land/bubbles/v2/timer"
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/convert"
-	payloadconv "github.com/palemoky/fight-the-landlord/internal/protocol/convert/payload"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/convert"
+	payloadconv "github.com/new985211/fight-the-landlord/internal/protocol/convert/payload"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
 )
 
 // restoreGameState 用重连快照覆盖本地游戏状态，避免沿用掉线前的过期数据（例如上家出牌、各家剩余牌数、地主标记等）

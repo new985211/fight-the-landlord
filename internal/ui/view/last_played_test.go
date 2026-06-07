@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
 )
 
 // ranksOf 把重排后的牌拼成点数字符串，便于断言展示顺序

@@ -41,7 +41,7 @@ repos:
 
       - id: goimports
         name: Format Go imports
-        entry: goimports -w -local github.com/palemoky/fight-the-landlord
+        entry: goimports -w -local github.com/new985211/fight-the-landlord
         language: system
         types: [go]
         exclude: '(internal/protocol/pb/.*\.pb\.go|internal/protocol/convert/msgtype/mapping\.go)$'

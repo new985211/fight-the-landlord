@@ -31,7 +31,11 @@
       "Bash(curl -s http://127.0.0.1:1780/version)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:1780/nonexist)",
       "Bash(ip addr *)",
-      "Bash(CGO_ENABLED=0 GOTOOLCHAIN=local GOOS=windows GOARCH=amd64 go build -tags ci -ldflags \"-s -w -X main.version=v0.5.3\" -o ./ddz.exe ./cmd/allinone/)"
+      "Bash(CGO_ENABLED=0 GOTOOLCHAIN=local GOOS=windows GOARCH=amd64 go build -tags ci -ldflags \"-s -w -X main.version=v0.5.3\" -o ./ddz.exe ./cmd/allinone/)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(go build *)",
+      "Bash(git add *)"
     ]
   }
 }

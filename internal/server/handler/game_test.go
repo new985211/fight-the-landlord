@@ -6,12 +6,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	r "github.com/palemoky/fight-the-landlord/internal/game/room"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	payloadconv "github.com/palemoky/fight-the-landlord/internal/protocol/convert/payload"
-	"github.com/palemoky/fight-the-landlord/internal/server/session"
-	"github.com/palemoky/fight-the-landlord/internal/testutil"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	r "github.com/new985211/fight-the-landlord/internal/game/room"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	payloadconv "github.com/new985211/fight-the-landlord/internal/protocol/convert/payload"
+	"github.com/new985211/fight-the-landlord/internal/server/session"
+	"github.com/new985211/fight-the-landlord/internal/testutil"
 )
 
 // Helper to create a room with a running game session and mock clients

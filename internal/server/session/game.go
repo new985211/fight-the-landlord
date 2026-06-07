@@ -4,11 +4,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/room"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
-	"github.com/palemoky/fight-the-landlord/internal/server/storage"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/room"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/server/storage"
 )
 
 // GameState 游戏状态

@@ -4,12 +4,12 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/palemoky/fight-the-landlord/internal/apperrors"
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/convert"
+	"github.com/new985211/fight-the-landlord/internal/apperrors"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/protocol/convert"
 )
 
 // HandlePlayCards 处理出牌

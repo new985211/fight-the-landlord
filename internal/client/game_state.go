@@ -4,8 +4,8 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
 )
 
 // GameState 管理客户端侧的游戏状态

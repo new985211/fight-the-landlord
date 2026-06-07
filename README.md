@@ -18,13 +18,37 @@
 
 > **核心理念**：斗地主应该是运气与技巧的博弈，而不是算法与钱包的较量。
 
+## 🍴 Fork 改进
+
+本项目 Fork 自 [palemoky/fight-the-landlord](https://github.com/palemoky/fight-the-landlord)，在原项目基础上做了以下改进：
+
+### 🔧 纯静态编译，零 glibc 依赖
+
+所有二进制均使用 `CGO_ENABLED=0` 静态编译，**不依赖任何系统 glibc 版本**。无论目标机器是 glibc 2.17（CentOS 7）还是 glibc 2.34+（新版发行版），均可直接运行，彻底告别 `GLIBC_2.34 not found` 等问题。
+
+### 📦 三种独立构建模式
+
+项目提供三种独立的构建入口，按需选择：
+
+| 构建产物 | 入口 | 说明 |
+|----------|------|------|
+| `ddz`（全合一） | `cmd/allinone/` | 内嵌 Redis + 服务端 + 客户端，一键启动 |
+| `server` | `cmd/server/` | 独立服务端，用于部署专用服务器 |
+| `client` | `cmd/client/` | 独立客户端，连接远程服务器 |
+
+全合一二进制适合本地开箱即玩；独立服务端/客户端适合生产部署和局域网对战。
+
+### 🌍 多平台交叉编译
+
+支持 Linux (amd64/arm64)、Windows (amd64)、macOS (Intel/Apple Silicon) 的交叉编译，详见[编译章节](#-源码编译)。
+
 ## 🚀 快速开始（全合一二进制）
 
 项目提供了一个**全合一二进制文件**，将服务端、客户端、Redis 打包在一起，无需安装任何依赖即可运行。
 
 ### 下载预编译二进制
 
-从 [GitHub Releases](https://github.com/palemoky/fight-the-landlord/releases) 下载对应架构的二进制文件，或按下方说明自行编译。
+从 [GitHub Releases](https://github.com/new985211/fight-the-landlord/releases) 下载对应架构的二进制文件，或按下方说明自行编译。
 
 如果预编译二进制提示 glibc 版本不满足，请使用下方的静态编译方式自行构建。
 
@@ -305,8 +329,8 @@ sudo systemctl enable --now ddz-server
 
 ```bash
 # 下载配置文件
-curl -fsSL https://raw.githubusercontent.com/palemoky/fight-the-landlord/main/docker-compose.yml -o docker-compose.yml
-curl -fsSL https://raw.githubusercontent.com/palemoky/fight-the-landlord/main/.env.example -o .env
+curl -fsSL https://raw.githubusercontent.com/new985211/fight-the-landlord/main/docker-compose.yml -o docker-compose.yml
+curl -fsSL https://raw.githubusercontent.com/new985211/fight-the-landlord/main/.env.example -o .env
 
 # 启动
 docker compose up -d
@@ -358,6 +382,6 @@ douzero/      # Python DouZero AI 推理服务
 
 **让斗地主回归纯粹 - 无控牌，真公平**
 
-Made with ❤️ by [palemoky](https://github.com/palemoky)
+Forked from [palemoky/fight-the-landlord](https://github.com/palemoky/fight-the-landlord)
 
 </div>

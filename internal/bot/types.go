@@ -3,9 +3,9 @@ package bot
 import (
 	"context"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
 )
 
 // DouZero position constants

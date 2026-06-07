@@ -3,12 +3,12 @@ package session
 import (
 	"time"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/convert"
-	"github.com/palemoky/fight-the-landlord/internal/types"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/protocol/convert"
+	"github.com/new985211/fight-the-landlord/internal/types"
 )
 
 // BuildGameStateDTO 构建游戏状态 DTO（用于重连等场景）

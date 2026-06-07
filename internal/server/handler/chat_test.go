@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	r "github.com/palemoky/fight-the-landlord/internal/game/room"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/testutil"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	r "github.com/new985211/fight-the-landlord/internal/game/room"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/testutil"
 )
 
 func TestHandler_HandleChat_Lobby(t *testing.T) {

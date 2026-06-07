@@ -5,7 +5,7 @@ package room
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/palemoky/fight-the-landlord/internal/types"
+	"github.com/new985211/fight-the-landlord/internal/types"
 )
 
 // MockRoomManager 房间管理器 mock

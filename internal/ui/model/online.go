@@ -10,10 +10,10 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"charm.land/lipgloss/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/sound"
-	"github.com/palemoky/fight-the-landlord/internal/transport"
-	"github.com/palemoky/fight-the-landlord/internal/ui/common"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/sound"
+	"github.com/new985211/fight-the-landlord/internal/transport"
+	"github.com/new985211/fight-the-landlord/internal/ui/common"
 )
 
 // OnlineModel is the main model for online game mode.

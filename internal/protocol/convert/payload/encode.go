@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/convert"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/pb"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/convert"
+	"github.com/new985211/fight-the-landlord/internal/protocol/pb"
 )
 
 // protocol.EncodePayload 将 Go struct payload 编码为 protobuf bytes

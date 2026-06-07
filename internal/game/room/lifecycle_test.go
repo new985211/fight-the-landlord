@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palemoky/fight-the-landlord/internal/apperrors"
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	"github.com/palemoky/fight-the-landlord/internal/server/storage"
-	"github.com/palemoky/fight-the-landlord/internal/testutil"
+	"github.com/new985211/fight-the-landlord/internal/apperrors"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/server/storage"
+	"github.com/new985211/fight-the-landlord/internal/testutil"
 )
 
 func TestNotifyPlayerOffline_AllPlayersOffline(t *testing.T) {

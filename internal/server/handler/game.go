@@ -3,11 +3,11 @@ package handler
 import (
 	"errors"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	"github.com/palemoky/fight-the-landlord/internal/types"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/types"
 
-	"github.com/palemoky/fight-the-landlord/internal/apperrors"
+	"github.com/new985211/fight-the-landlord/internal/apperrors"
 )
 
 // sendGameError 统一处理游戏错误并发送给客户端

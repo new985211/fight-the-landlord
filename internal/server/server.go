@@ -12,13 +12,13 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/palemoky/fight-the-landlord/internal/bot"
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	"github.com/palemoky/fight-the-landlord/internal/game/match"
-	"github.com/palemoky/fight-the-landlord/internal/game/room"
-	"github.com/palemoky/fight-the-landlord/internal/server/handler"
-	"github.com/palemoky/fight-the-landlord/internal/server/session"
-	"github.com/palemoky/fight-the-landlord/internal/server/storage"
+	"github.com/new985211/fight-the-landlord/internal/bot"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/game/match"
+	"github.com/new985211/fight-the-landlord/internal/game/room"
+	"github.com/new985211/fight-the-landlord/internal/server/handler"
+	"github.com/new985211/fight-the-landlord/internal/server/session"
+	"github.com/new985211/fight-the-landlord/internal/server/storage"
 )
 
 // Version 是服务端版本号，可由 cmd/server 在启动时通过编译注入的值覆盖。

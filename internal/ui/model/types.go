@@ -8,9 +8,9 @@ import (
 	"charm.land/bubbles/v2/timer"
 	tea "charm.land/bubbletea/v2"
 
-	gameClient "github.com/palemoky/fight-the-landlord/internal/client"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/transport"
+	gameClient "github.com/new985211/fight-the-landlord/internal/client"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/transport"
 )
 
 // GamePhase represents the current game phase.

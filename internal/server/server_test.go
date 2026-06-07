@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/config"
 )
 
 func TestServer_RegisterUnregister_Concurrency(t *testing.T) {

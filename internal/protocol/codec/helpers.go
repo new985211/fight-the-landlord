@@ -3,9 +3,9 @@ package codec
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/convert/msgtype"
-	payloadconv "github.com/palemoky/fight-the-landlord/internal/protocol/convert/payload"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/convert/msgtype"
+	payloadconv "github.com/new985211/fight-the-landlord/internal/protocol/convert/payload"
 )
 
 // NewMessage 创建一个新消息

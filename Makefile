@@ -43,7 +43,7 @@ proto:  ## Regenerate Protocol Buffer and message type mapping code
 		echo "$(YELLOW)Install it with: brew install protobuf$(NC)"; \
 		exit 1; \
 	fi
-	protoc --proto_path=. --go_out=. --go_opt=module=github.com/palemoky/fight-the-landlord internal/protocol/proto/*.proto
+	protoc --proto_path=. --go_out=. --go_opt=module=github.com/new985211/fight-the-landlord internal/protocol/proto/*.proto
 	@echo "$(GREEN)✓ Protocol Buffer code regenerated$(NC)"
 	@echo "$(BLUE)Generating MessageType mapping code...$(NC)"
 	@cd internal/protocol/convert/msgtype && go run gen.go

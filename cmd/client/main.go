@@ -10,9 +10,9 @@ import (
 
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/logger"
-	"github.com/palemoky/fight-the-landlord/internal/ui"
-	"github.com/palemoky/fight-the-landlord/internal/update"
+	"github.com/new985211/fight-the-landlord/internal/logger"
+	"github.com/new985211/fight-the-landlord/internal/ui"
+	"github.com/new985211/fight-the-landlord/internal/update"
 )
 
 // 默认服务器地址与版本号（可通过编译时 -ldflags 注入）

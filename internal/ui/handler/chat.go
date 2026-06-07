@@ -6,9 +6,9 @@ import (
 
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	payloadconv "github.com/palemoky/fight-the-landlord/internal/protocol/convert/payload"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	payloadconv "github.com/new985211/fight-the-landlord/internal/protocol/convert/payload"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
 )
 
 func handleMsgChat(m model.Model, msg *protocol.Message) tea.Cmd {

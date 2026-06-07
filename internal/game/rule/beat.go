@@ -3,7 +3,7 @@ package rule
 import (
 	"slices"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
 )
 
 // hasWinningBombOrRocket 检查是否有炸弹或王炸能压过对手的牌

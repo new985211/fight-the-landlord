@@ -1,7 +1,7 @@
 package session
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/game/room"
+	"github.com/new985211/fight-the-landlord/internal/game/room"
 )
 
 // Type aliases for backward compatibility

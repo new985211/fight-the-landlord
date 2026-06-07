@@ -4,8 +4,8 @@ package handler
 import (
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
 )
 
 // messageHandler 消息处理函数类型

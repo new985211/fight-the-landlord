@@ -5,7 +5,7 @@ package testutil
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
 )
 
 // MockClient 实现 types.ClientInterface 的 mock

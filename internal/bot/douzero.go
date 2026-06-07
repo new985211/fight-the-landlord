@@ -10,8 +10,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
 )
 
 const douzeroTimeout = 5 * time.Second

@@ -14,10 +14,10 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"github.com/alicebob/miniredis/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	"github.com/palemoky/fight-the-landlord/internal/logger"
-	"github.com/palemoky/fight-the-landlord/internal/server"
-	"github.com/palemoky/fight-the-landlord/internal/ui"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/logger"
+	"github.com/new985211/fight-the-landlord/internal/server"
+	"github.com/new985211/fight-the-landlord/internal/ui"
 )
 
 var version = "dev"

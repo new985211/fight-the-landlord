@@ -70,7 +70,7 @@ func main() {
 	fmt.Fprintln(output, "package msgtype")
 	fmt.Fprintln(output, "")
 	fmt.Fprintln(output, "import (")
-	fmt.Fprintln(output, "\t\"github.com/palemoky/fight-the-landlord/internal/protocol/pb\"")
+	fmt.Fprintln(output, "\t\"github.com/new985211/fight-the-landlord/internal/protocol/pb\"")
 	fmt.Fprintln(output, ")")
 	fmt.Fprintln(output, "")
 

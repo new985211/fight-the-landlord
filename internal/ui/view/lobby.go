@@ -7,9 +7,9 @@ import (
 
 	"charm.land/lipgloss/v2"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/ui/common"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/ui/common"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
 )
 
 // getNotificationStyle returns the appropriate style for a notification type.

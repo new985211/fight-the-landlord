@@ -1,7 +1,7 @@
 package rule
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
 )
 
 // isRocket 王炸

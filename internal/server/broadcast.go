@@ -1,6 +1,6 @@
 package server
 
-import "github.com/palemoky/fight-the-landlord/internal/protocol"
+import "github.com/new985211/fight-the-landlord/internal/protocol"
 
 // GetOnlineCount 获取在线人数（按需调用）
 func (s *Server) GetOnlineCount() int {

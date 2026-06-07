@@ -3,7 +3,7 @@
 package msgtype
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/protocol/pb"
+	"github.com/new985211/fight-the-landlord/internal/protocol/pb"
 )
 
 // stringToProtoMap 字符串到 protobuf 枚举的映射表

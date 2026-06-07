@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/game/rule"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/game/rule"
 )
 
 // --- 测试辅助函数 ---

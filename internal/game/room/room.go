@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/palemoky/fight-the-landlord/internal/config"
-	"github.com/palemoky/fight-the-landlord/internal/server/storage"
-	"github.com/palemoky/fight-the-landlord/internal/types"
+	"github.com/new985211/fight-the-landlord/internal/config"
+	"github.com/new985211/fight-the-landlord/internal/server/storage"
+	"github.com/new985211/fight-the-landlord/internal/types"
 )
 
 const (

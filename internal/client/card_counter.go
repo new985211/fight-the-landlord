@@ -1,6 +1,6 @@
 package client
 
-import "github.com/palemoky/fight-the-landlord/internal/game/card"
+import "github.com/new985211/fight-the-landlord/internal/game/card"
 
 // CardCounter 跟踪不在玩家手中的剩余牌
 type CardCounter struct {

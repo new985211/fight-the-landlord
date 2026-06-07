@@ -6,10 +6,10 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/palemoky/fight-the-landlord/internal/logger"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
-	payloadconv "github.com/palemoky/fight-the-landlord/internal/protocol/convert/payload"
+	"github.com/new985211/fight-the-landlord/internal/logger"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
+	payloadconv "github.com/new985211/fight-the-landlord/internal/protocol/convert/payload"
 )
 
 // readPump 从服务器读取消息

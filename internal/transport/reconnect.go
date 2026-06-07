@@ -7,9 +7,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/palemoky/fight-the-landlord/internal/logger"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/logger"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
 )
 
 // Reconnect 手动发送重连请求

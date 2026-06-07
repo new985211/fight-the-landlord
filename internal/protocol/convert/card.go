@@ -1,8 +1,8 @@
 package convert
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
 )
 
 // CardToInfo 将 card.Card 转换为 protocol.CardInfo

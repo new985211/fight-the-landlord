@@ -7,8 +7,8 @@ import (
 	"charm.land/bubbles/v2/textinput"
 	tea "charm.land/bubbletea/v2"
 
-	gameClient "github.com/palemoky/fight-the-landlord/internal/client"
-	"github.com/palemoky/fight-the-landlord/internal/transport"
+	gameClient "github.com/new985211/fight-the-landlord/internal/client"
+	"github.com/new985211/fight-the-landlord/internal/transport"
 )
 
 // GameModel handles game-specific UI state.

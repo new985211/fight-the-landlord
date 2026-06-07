@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/pb"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/pb"
 )
 
 // Message pools for reducing GC pressure

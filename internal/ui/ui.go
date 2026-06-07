@@ -2,9 +2,9 @@
 package ui
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/ui/handler"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
-	"github.com/palemoky/fight-the-landlord/internal/ui/view"
+	"github.com/new985211/fight-the-landlord/internal/ui/handler"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
+	"github.com/new985211/fight-the-landlord/internal/ui/view"
 )
 
 // NewOnlineModel creates a new OnlineModel for online game mode.

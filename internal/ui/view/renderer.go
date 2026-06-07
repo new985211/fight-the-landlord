@@ -10,10 +10,10 @@ import (
 
 	"charm.land/lipgloss/v2"
 
-	gameClient "github.com/palemoky/fight-the-landlord/internal/client"
-	"github.com/palemoky/fight-the-landlord/internal/game/card"
-	"github.com/palemoky/fight-the-landlord/internal/ui/common"
-	"github.com/palemoky/fight-the-landlord/internal/ui/model"
+	gameClient "github.com/new985211/fight-the-landlord/internal/client"
+	"github.com/new985211/fight-the-landlord/internal/game/card"
+	"github.com/new985211/fight-the-landlord/internal/ui/common"
+	"github.com/new985211/fight-the-landlord/internal/ui/model"
 )
 
 // CreateViewRenderer creates a view renderer function that can be injected into OnlineModel.

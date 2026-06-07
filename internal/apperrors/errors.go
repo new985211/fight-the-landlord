@@ -1,7 +1,7 @@
 package apperrors
 
 import (
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
 )
 
 // GameError 游戏错误（房间和会话共享）

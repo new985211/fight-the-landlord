@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/palemoky/fight-the-landlord/internal/protocol"
-	"github.com/palemoky/fight-the-landlord/internal/protocol/codec"
+	"github.com/new985211/fight-the-landlord/internal/protocol"
+	"github.com/new985211/fight-the-landlord/internal/protocol/codec"
 )
 
 // monitorStats 定期监控服务器状态

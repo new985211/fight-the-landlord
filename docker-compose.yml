@@ -1,7 +1,7 @@
 services:
   # 游戏服务器
   poker-server:
-    image: palemoky/fight-the-landlord:latest
+    image: new985211/fight-the-landlord:latest
     container_name: poker-server
     restart: unless-stopped
     stop_grace_period: ${GAME_SHUTDOWN_TIMEOUT:-30}m
@@ -22,7 +22,7 @@ services:
 
   # DouZero 推理服务
   douzero:
-    image: palemoky/fight-the-landlord-douzero:latest
+    image: new985211/fight-the-landlord-douzero:latest
     container_name: poker-douzero
     restart: unless-stopped
     networks:
