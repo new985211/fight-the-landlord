@@ -1,0 +1,26 @@
+# IDE/editor config files
+.idea/*
+.vscode/*
+!.vscode/launch.json
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Secrets (Docker/K8s secret files, never commit)
+secrets/
+
+# Go test coverage output
+cover.out
+
+# Binary files
+bin/*
+/client
+/server
+/coverage.out
+
+# DouZero
+.venv/
+__pycache__/
+models/

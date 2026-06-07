@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version *)",
+      "Bash(go env *)",
+      "Bash(GOTOOLCHAIN=local /usr/local/go/bin/go version *)",
+      "Bash(GOTOOLCHAIN=local GONOSUMCHECK='' GONOSUMDB='' /usr/local/go/bin/go version *)",
+      "Bash(GOTOOLCHAIN=local /usr/local/go/bin/go mod *)",
+      "Bash(GOTOOLCHAIN=local /usr/local/go/bin/go build *)",
+      "Bash(redis-cli ping *)",
+      "Bash(dpkg -l)",
+      "Bash(sudo apt-get *)",
+      "Bash(sudo systemctl start redis-server)",
+      "Bash(sudo systemctl enable redis-server)",
+      "Bash(timeout 5 ./server)",
+      "Bash(ldd --version)",
+      "Bash(/lib/x86_64-linux-gnu/libc.so.6)",
+      "Bash(ldd ./server)",
+      "Bash(CGO_ENABLED=0 GOTOOLCHAIN=local go build *)",
+      "Bash(ldd ./ddz)",
+      "Bash(timeout 5 ./ddz -mode server)",
+      "Bash(./ddz *)",
+      "Bash(CGO_ENABLED=0 GOTOOLCHAIN=local GOOS=linux GOARCH=arm64 go build *)",
+      "Bash(GOTOOLCHAIN=local go build -trimpath -ldflags=\"-w -s\" -o ./server ./cmd/server/)",
+      "Bash(./server)",
+      "Bash(curl -s http://127.0.0.1:1780/)",
+      "Bash(curl -s http://127.0.0.1:1780/health)",
+      "Bash(curl -s http://127.0.0.1:1780/nonexist)",
+      "Bash(kill %1)",
+      "Bash(wait %1)",
+      "Bash(curl -s http://127.0.0.1:1780/version)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:1780/nonexist)",
+      "Bash(ip addr *)",
+      "Bash(CGO_ENABLED=0 GOTOOLCHAIN=local GOOS=windows GOARCH=amd64 go build -tags ci -ldflags \"-s -w -X main.version=v0.5.3\" -o ./ddz.exe ./cmd/allinone/)"
+    ]
+  }
+}
