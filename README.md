@@ -111,13 +111,13 @@
 
 ```bash
 # 全合一二进制（推荐）
-CGO_ENABLED=0 go build -tags ci -ldflags "-s -w -X main.version=v0.5.3" -o ddz ./cmd/allinone/
+CGO_ENABLED=0 go build -tags ci -ldflags "-s -w -X main.version=v0.5.3" -o ddz-linux-x64 ./cmd/allinone/
 
 # 单独编译服务端
-go build -trimpath -ldflags="-w -s" -o server ./cmd/server/
+go build -trimpath -ldflags="-w -s" -o server-linux-x64 ./cmd/server/
 
 # 单独编译客户端
-go build -trimpath -ldflags="-w -s" -o client ./cmd/client/
+go build -trimpath -ldflags="-w -s" -o client-linux-x64 ./cmd/client/
 ```
 
 编译参数说明：
@@ -150,13 +150,18 @@ ARM64 二进制适用于树莓派、ARM 云服务器、Apple Silicon Mac（Linux
 ### 交叉编译 Windows
 
 ```bash
-# 全合一二进制
+# 全合一二进制 (x64)
 CGO_ENABLED=0 GOOS=windows GOARCH=amd64 \
   go build -tags ci -ldflags="-s -w -X main.version=v0.5.3" \
-  -o ddz.exe ./cmd/allinone/
+  -o ddz-windows-x64.exe ./cmd/allinone/
+
+# 全合一二进制 (ARM64)
+CGO_ENABLED=0 GOOS=windows GOARCH=arm64 \
+  go build -tags ci -ldflags="-s -w -X main.version=v0.5.3" \
+  -o ddz-windows-arm64.exe ./cmd/allinone/
 ```
 
-Windows 下为命令行程序，在 CMD 或 PowerShell 中运行，用法与 Linux 版一致。
+Windows 下为命令行程序，在 CMD 或 PowerShell 中运行，用法与 Linux 版一致。ARM64 版本适用于 Windows on ARM 设备（如 Surface Pro X/11）。
 
 ### 交叉编译 macOS
 
@@ -174,12 +179,13 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 \
 
 | 产物 | 目标平台 | 类型 |
 |------|----------|------|
-| `ddz` | Linux amd64 | 全合一（推荐） |
+| `ddz-linux-x64` | Linux amd64 | 全合一（推荐） |
 | `ddz-linux-arm64` | Linux arm64 | 全合一 |
-| `ddz.exe` | Windows amd64 | 全合一 |
+| `ddz-windows-x64.exe` | Windows amd64 | 全合一 |
+| `ddz-windows-arm64.exe` | Windows arm64 | 全合一 |
 | `ddz-darwin-amd64` | macOS Intel | 全合一 |
 | `ddz-darwin-arm64` | macOS Apple Silicon | 全合一 |
-| `server` / `client` | Linux amd64 | 独立部署 |
+| `server-linux-x64` / `client-linux-x64` | Linux amd64 | 独立部署 |
 | `server-linux-arm64` / `client-linux-arm64` | Linux arm64 | 独立部署 |
 
 ## 🏠 局域网真人对战教程
